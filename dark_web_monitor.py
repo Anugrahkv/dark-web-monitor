@@ -6,7 +6,7 @@ import json
 FEED_URL = "https://raw.githubusercontent.com/joshhighet/ransomwatch/main/posts.json"
 
 # The company we are monitoring for breaches
-TARGET_COMPANY = "bugcrowd"
+TARGET_COMPANY = "Organisation"
 
 def monitor_dark_web_leaks():
     print("[*] Connecting to Dark Web Ransomware / Leak Aggregator...")
